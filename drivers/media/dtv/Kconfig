@@ -1,0 +1,2 @@
+comment "Supported Digitel televison"
+source "drivers/media/dtv/fci/Kconfig"

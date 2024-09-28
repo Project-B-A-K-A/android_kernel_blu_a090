@@ -1,0 +1,9 @@
+#
+# FCI Digital TV device configuration
+#
+
+config FCI_DTV_DRV
+	tristate "FCI DTV via SPI interface"
+	depends on SPI
+	---help---
+	  Choose if you would like to have Fci's support for SPI interface
